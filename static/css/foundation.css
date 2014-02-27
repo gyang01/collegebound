@@ -43,7 +43,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Gotham", Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "GothamHTF", Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1781,9 +1781,10 @@ button, .button {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
+  margin-top: 5.25rem;
   margin-bottom: 1.25rem;
-  padding: 1.25rem;
-  background: #f2f2f2; }
+  padding: 3.25rem;
+  background: white; }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
@@ -2361,7 +2362,7 @@ div.switch {
       padding-right: 2rem;
       padding-bottom: 1.0625rem;
       padding-left: 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "GothamHTF", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover {
         background: #e1e1e1; }
@@ -2467,7 +2468,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: "GothamHTF", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem; }
@@ -2479,7 +2480,7 @@ ul.pagination {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: "GothamHTF", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -2505,7 +2506,7 @@ ul.pagination {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: "GothamHTF", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -2699,7 +2700,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "GothamHTF","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -3413,7 +3414,7 @@ dialog[open] {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: "GothamHTF","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -3598,7 +3599,7 @@ dialog[open] {
       right: auto; } }
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "GothamHTF","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5268,17 +5269,18 @@ th.hide-for-touch {
 
   
 #homepage-hero {
-  background: url(/static/img/stairs1.jpg) #074e68;
+  background: url(/static/img/stairs2.jpg) no-repeat #074e68;
+  background-size: cover;
   height: 650px;
-  width: 100%;
+  /*width: 100%;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 20px;
-  max-width: 62.5rem;
-  text-align: center;
+  /*max-width: 62.5rem;*/
+  /*text-align: center;*/
   position: relative;
-  padding: 100px 20px 0 20px; }
+  /*padding: 100px 20px 0 20px; }*/
   @media screen and (max-width: 768px) {
     #homepage-hero {
       padding: 40px 5px 30px 5px; } }
